@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Digital";
+    src: url(fonts/digital-7.regular.ttf);
+}
+
+main{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centrar{
+    background-color: rgb(207, 207, 207);
+    padding: 80px 50px;
+    font-size: 15px;
+    border: #000 solid 5px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+h1{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+input{
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+    background: linear-gradient(0.7turn, rgb(127, 175, 115) 60%, rgba(127, 175, 115, 0.541),rgb(127, 175, 115) 80%);
+    font-family: "Digital";
+    padding: 5px 0;
+}
+
+::placeholder{
+    color: #000;
+}
+
+.botones {
+    margin: 15px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 25px;
+    font-family: "Digital", sans-serif;
+    background: linear-gradient(0.7turn, rgb(167, 167, 167) 60%, rgba(167, 167, 167, 0.411),rgb(167, 167, 167) 80%);
+}
+
+#resultado{
+    background: linear-gradient(0.7turn, rgb(127, 175, 115) 60%, rgba(127, 175, 115, 0.541),rgb(127, 175, 115) 90%);
+    font-size: 35px;
+    display: flex;
+    justify-content: center !important;
+    margin-top: 30px !important;
+    padding: 10px 0;
+    font-family: "Digital", sans-serif;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+    border-bottom: grey solid 2px;
+    border-right: grey solid 2px;
+}
